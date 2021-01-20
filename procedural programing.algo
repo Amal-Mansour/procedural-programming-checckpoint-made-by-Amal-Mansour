@@ -1,0 +1,63 @@
+
+
+FUNCTION Dot_product (v1,v2)
+VAR
+// step 1: declair the variables:
+    
+    vectors:ARRAY_OF INTEGER;
+    v1 ,v2,n,i,j :INTEGER;
+
+BEGIN
+//  step 2 :look for the tools we need for that function 
+
+    Read(vector)
+     Read(n)
+     Read( v1,v2)
+      FOR i FROM 0 TO vector.length STEP 1 DO 
+
+         FOR j FROM 0 TO vector.length STEP 1 DO 
+
+         n += v1 * v2
+     
+     RETURN n ;
+
+END
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//     Name: Dot product
+//     Description: 
+
+//      Write a procedure, called dot_product which calculates in the variable ps, the dot(scalar) product of v1 and v2 (v1 and v2 are vectors of IR)
+//     Write an algorithm which determines, for n pairs of given vectors, whether two vectors of given IR are orthogonal, by calling the procedure defined in the previous question. The dot product of two orthogonal vectors is zero.
+//     Modify the previous algorithm if you use a dot_product function instead of a procedure.
+
+// Instructions
+
+ 
+
+//     Instructions:
+//         Use array for presenting the vector.
+//         Use nested loop (a loop inside another)
+//         Use different types of passing parameters 
+
+
+
+
+ 
